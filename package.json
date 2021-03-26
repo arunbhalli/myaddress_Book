@@ -1,0 +1,15 @@
+{
+    "name": "myaddress_book",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "arunbhalli <tomarbhalli.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "cypress": "^6.8.0",
+        "superstatic": "^7.1.0"
+    },
+    "scripts": {
+        "start": "superstatic src --port 3000",
+        "cypress": " yarn start & cypress open"
+    }
+}
